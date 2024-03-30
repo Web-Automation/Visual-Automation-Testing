@@ -29,3 +29,4 @@ Example: There are 4 builds; Build-1, Build-2, Build-3 & Build-4. Now Build-1 wi
 **Notes:**
 - Generate $percy_token from percy.io
 - Percy dashboard will compare the screenshot on its own, you just need to send the screenshot using the script and proper naming convention so that images can be compared properly.
+- If using 'Git' in "Baseline Management" then remember that every new build which will be created compare with previous build, so first prepare the build of live webpage then build the stagging webpage. 
